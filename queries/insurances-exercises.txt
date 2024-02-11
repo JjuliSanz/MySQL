@@ -1,0 +1,75 @@
+1.Which insurances have a price greater than 400?
+- Insurances id: 1, 4, 5.
+
+2.Which insurances cover 30% or more?
+- Insurances id: 1, 4, 5.
+
+3.Which insurances were contracted before the year 2021?
+- Insurances id: 2, 3, 6.
+
+4.Which insurances have been contracted between the years 2019 and 2021?
+- Insurances id: 2, 3, 4, 5, 6.
+
+5.Which insurances have a value greater than 400 or have been contracted in the year 2019?
+- Insurances id: 1, 2, 4, 5.
+
+---- JOIN ----
+
+1.We want to see the names of the clients, the types of insurances they have contracted, and the annual cost of these.
+- Manolo Rodrigo: Property:$ 424.35, Vehicle: $180.45, $82.31.
+- Manuel Pepe: Property: $980.39, $893.34.
+- Paco de las Cuevas: Vehicle: $59.43.
+
+2.We want to know the license plate number, price, and annual cost of all the vehicles we have stored.
+- vehicle plate_number: 1234BCD, vehicle price: $8000.00, insurance annual_cost: $180.45.
+- vehicle plate_number: 4321BCD, vehicle price: $4000.00, insurance annual_cost: $82.31.
+- vehicle plate_number: 4356CBD, vehicle price: $3000.00, insurance annual_cost: $59.43.
+
+3.For each client who has property insurance, we want to know their name, the square meters of the property, the city where the property is located, and the annual cost of the insurance.
+- name: Manolo Rodrigo, properties area: 200.00, properties city: Barcelona, insurance annual_cost: $424.35.
+- name: Manuel Pepe, properties area: 220.00, properties city: Madrid, insurance annual_cost: $980.39.
+- name: Manuel Pepe, properties area: 180.00, properties city: Madrid, insurance annual_cost: $893.34.
+
+---- GROUPS ----
+
+1.How much money have we earned with all the insurances sold to date?
+- We have earned a total of $2620.27 from all the insurances sold to date.
+
+2.How much does the most expensive insurance cost? And the cheapest?
+- Most Expensive: $980.39
+- Cheapest: $59.43
+
+3.What is the most expensive insurance? And the cheapest?
+- Most Expensive: insurance_id: 4
+- Cheapest: insurance_id: 6
+
+4.Who has contracted the most expensive insurance?
+-  client_id:2, name: Manuel Pepe, annual_cost: $980.39
+
+5.How much money have we earned with the insurances contracted in 2021?
+- We have earned $1873.73 with the insurances contracted in 2021.
+
+6.What is the average price of the vehicles we have insured?
+- The average price of the insured vehicles is $5,000.
+
+7.How many property insurances have we sold?
+- We have sold 3 property insurances.
+
+8.How much have we earned in total with each type of insurance?
+- Vehicle: $322.19.
+- Property: $2298.08.
+
+9.How much has each client paid us in total?
+- Manolo Rodrigo: $687.11.
+- Manuel Pepe: $1873.73.
+- Paco de las Cuevas: $59.43.
+
+10.How much has each client paid us in total for each type of insurance?
+- Manolo Rodrigo: Vehicle: $262.76, Property: $424.35.
+- Manuel Pepe: Property: $1873.73.
+- Paco de las Cuevas: Vehicle: $59.43.
+
+11.How many car and property insurances does each client have?
+- Manolo Rodrigo: Vehicle: 2, Property: 1.
+- Manuel Pepe: Property: 2.
+- Paco de las Cuevas: Vehicle: 1.
